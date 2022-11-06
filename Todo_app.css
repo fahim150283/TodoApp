@@ -1,8 +1,8 @@
 #container{
-    /* background: greenyellow; */
+    background: rgb(243, 242, 171);
     width: 360px;
-    margin: 0 auto;
-    border: 2px solid gray;
+    margin: 100px auto;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 50);
 }
 
 .completed{
