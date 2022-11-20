@@ -13,6 +13,29 @@ ul{
     padding: 0px;
 }
 
+li{
+    background: white;
+    height: 40px;
+    line-height: 40px;
+    color: #505050;
+}
+
+input{
+    font-size: 18px;
+    background-color: #f7f7f7;
+    width: 100%;
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box;
+}
+
+li:nth-child(2n){
+    background: rgb(243, 242, 171);
+}
+
+body{
+    font-family: Roboto;
+}
+
 #container{
     background: rgb(243, 242, 171);
     width: 360px;
