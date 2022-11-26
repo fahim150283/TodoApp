@@ -7,6 +7,10 @@ h1{
     font-weight: normal;
 }
 
+.fa-plus{
+    float: right;
+}
+
 ul{
     list-style: none;
     margin: 0%;
@@ -22,10 +26,17 @@ li{
 
 input{
     font-size: 18px;
-    background-color: #f7f7f7;
+    color: rgb(0, 140, 255);
+    background-color: #d6cebd;
     width: 100%;
     padding: 13px 13px 13px 20px;
     box-sizing: border-box;
+}
+
+input:focus{
+    background: white;
+    border: 3px solid #2880b9;
+    outline: none;
 }
 
 li:nth-child(2n){
@@ -34,6 +45,7 @@ li:nth-child(2n){
 
 body{
     font-family: Roboto;
+    background: linear-gradient(90deg, rgba(68,213,250,1) 0%, rgba(255,199,119,1) 100%);
 }
 
 #container{
