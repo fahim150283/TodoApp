@@ -18,7 +18,6 @@ $("input[type='text']").keypress(function(event){
         //create a new li and to ul
         $("ul").append("<li><span><i class='fa fa-trash'></i></span> " + todoText + "</li>")
     }
-    
 });
 
 // $("input[type='text'").fadeout();
