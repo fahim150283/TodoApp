@@ -21,10 +21,12 @@ span{
     width: 0;
     display: inline-block;
     transition: 0.28s linear;
+    opacity: 0;
 }
 
 li:hover span{
     width: 40px;
+    opacity: 1;
 }
 
 ul{
@@ -47,6 +49,7 @@ input{
     width: 100%;
     padding: 13px 13px 13px 20px;
     box-sizing: border-box;
+    border: 3px solid rgba(0, 0, 0, 0);
 }
 
 input:focus{
@@ -61,7 +64,8 @@ li:nth-child(2n){
 
 body{
     font-family: Roboto;
-    background: linear-gradient(90deg, rgba(68,213,250,1) 0%, rgba(255,199,119,1) 100%);
+    background: rgb(255,128,128);
+    background:linear-gradient(90deg, rgba(255,128,128,1) 0%, rgba(255,228,110,1) 50%, rgba(135,128,255,1) 100%);
 }
 
 #container{
