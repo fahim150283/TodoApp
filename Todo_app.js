@@ -21,7 +21,15 @@ $("input[type='text']").keypress(function(event){
     
 });
 
-
+// $("input[type='text'").fadeout();
 $(".fa-plus").click(function(){
+    // console.log("Hello world!");
     $("input[type='text'").fadeToggle();
 });
+
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+    {pageLanguage: 'en', pageLanguage: 'jpn', pageLanguage: 'chn', pageLanguage: 'bn', pageLanguage: 'hn'},
+        'google_translate_element'
+    );
+}
